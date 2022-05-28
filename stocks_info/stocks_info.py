@@ -86,7 +86,7 @@ if __name__=='__main__':
     #如果文件后缀是xlsx就改变file_type变量
     file_type='csv'
     #读取文件的地址
-    address = 'C:/Users/blldyyd/Desktop/python项目/blldyyd/blldyyd_stocks/stocks_info/'
+    address = './'
 
     #实例化一个对象
     a=stocks_info(price,stock_code,address,file_type)
